@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#f7faff"><title>myDash 3.3.1 · Pendelmonitor</title>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#f7faff"><title>myDash 3.3.3 · Pendelmonitor</title>
 <style>
 :root{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#172b48;background:#f6f9fe;color-scheme:light}*{box-sizing:border-box}body{margin:0}button,select{font:inherit}button{cursor:pointer}button:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid #6aa7fb;outline-offset:2px}button:disabled{cursor:progress;opacity:.6}.wrap{max-width:1150px;padding:clamp(13px,2.5vw,28px);margin:0 auto}.top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:0 0 18px}.brand{display:flex;align-items:center;gap:12px}.brand-icon{font-size:31px;line-height:1}.brand h1{font-size:clamp(20px,3vw,28px);margin:0;letter-spacing:-.03em}.sub{font-size:13px;color:#667c99;margin-top:2px}.tools{display:flex;gap:8px;align-items:center}.clock{font-size:14px;white-space:nowrap;font-weight:700}.iconbtn{border:1px solid #d4e1f5;background:#fff;border-radius:12px;min-width:42px;min-height:42px;color:#1456a5;font-weight:800}.panel,.board,.quickcard{background:#fff;border:1px solid #d9e5f5;box-shadow:0 4px 20px #193e7610;border-radius:18px}.panel{padding:16px;margin-bottom:15px}.settings{display:grid;grid-template-columns:1fr auto 1.05fr;gap:14px;align-items:end}.field-title{font-size:12px;color:#617897;font-weight:800;letter-spacing:.02em;margin-bottom:8px}.segment{display:flex;background:#f0f5fc;border:1px solid #d8e4f3;padding:4px;border-radius:12px;gap:4px}.segment button{border:0;border-radius:9px;background:transparent;color:#274363;padding:11px 12px;font-weight:650;font-size:14px;flex:1}.segment button.active{background:#145ac0;color:white;box-shadow:0 2px 6px #0c4b9e30}.switch{align-self:end;border:1px solid #d2e1f3;border-radius:50%;background:white;color:#1760b9;font-size:22px;width:43px;height:43px}.target-options{display:flex;gap:8px;flex-wrap:wrap}.target-options label{display:flex;align-items:center;gap:5px;font-weight:650;font-size:14px;border:1px solid #d7e3f3;border-radius:11px;padding:11px 10px;background:#f9fbff;flex:1;white-space:nowrap}.target-options input{accent-color:#135fc7;width:17px;height:17px}.bar{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin-top:16px;padding-top:13px;border-top:1px solid #e5edf8}.dir{display:flex;gap:6px}.dir button{background:#edf4ff;border:1px solid #d1e1f5;color:#24537f;padding:9px 12px;border-radius:9px;font-size:13px;font-weight:700}.dir button.active{background:#145ac0;color:white;border-color:#145ac0}.bar-right{display:flex;align-items:center;gap:8px}select{background:#fff;border:1px solid #d9e6f7;padding:9px 5px;border-radius:9px;color:#244667;font-size:13px}.quick{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:17px}.quickcard{display:flex;align-items:center;gap:10px;padding:12px 14px;text-decoration:none;color:#183657;min-width:0}.quickcard .emoji{font-size:23px}.quickcard strong{font-size:14px}.quickcard small{display:block;color:#74869c;font-size:11px;margin-top:1px}.quickcard .arrow{margin-left:auto;color:#175ebc;font-weight:800}.board{padding:14px}.board-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:2px 0 12px}.board-head h2{font-size:clamp(17px,2.5vw,21px);margin:0}.status{display:flex;align-items:center;gap:6px;font-size:12px;color:#607793}.dot{width:8px;height:8px;border-radius:100%;background:#e4a244;display:inline-block;flex:none}.dot.ok{background:#169650}.dot.err{background:#db4848}.errors{background:#fff1f1;border:1px solid #ffc4c4;color:#972a2a;padding:12px;border-radius:11px;font-size:13px;margin:10px 0}.cards{display:grid;gap:10px}.trip{border:1px solid #dbe6f6;border-radius:14px;background:#fff;overflow:hidden}.trip:nth-child(odd){background:#f9fbff}.trip-main{width:100%;border:0;background:transparent;color:inherit;text-align:left;padding:14px;display:block}.trip-top{display:flex;align-items:center;justify-content:space-between;gap:10px}.big-time{font-size:clamp(21px,3.5vw,26px);font-weight:850;letter-spacing:-.02em;font-variant-numeric:tabular-nums}.travel-meta{color:#637996;font-size:12px;margin-top:3px}.route-badges{display:flex;flex-wrap:wrap;align-items:center;gap:5px;margin-top:10px}.vehicle{font-size:12px;font-weight:800;color:#fff;border-radius:5px;background:#145ab0;padding:3px 6px;display:inline-block}.vehicle.tram{background:#8a2498}.vehicle.suburban{background:#218447}.vehicle.regional{background:#c42b2b}.vehicle.bus{background:#8b6b00}.arrive{font-size:11px;color:#5d7291;font-weight:650;margin-top:7px}.quality{font-size:12px;font-weight:800;padding:5px 8px;border-radius:20px;white-space:nowrap}.quality.good{color:#14733c;background:#e2f7e8}.quality.warn{color:#9b6500;background:#fff3d9}.quality.bad{color:#bc3232;background:#ffebeb}.quality.unknown{color:#586c82;background:#edf0f5}.trip-detail{padding:2px 14px 14px;border-top:1px solid #e5edf8}.leg{display:grid;grid-template-columns:65px 1fr;gap:8px;align-items:start;padding-top:12px}.leg .vehicle{width:max-content;max-width:100%;overflow-wrap:anywhere}.leg-main{min-width:0}.leg-stations{font-size:13px;font-weight:650;line-height:1.35}.times{font-size:12px;color:#61738d;margin-top:5px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}.rt{color:#167a43;background:#e2f6e7;border-radius:5px;padding:2px 5px;font-weight:750}.late{color:#c32f2f;background:#ffeded;border-radius:5px;padding:2px 5px;font-weight:800}.onlyplan{color:#6b7585;background:#edf1f6;border-radius:5px;padding:2px 5px}.transfer{font-size:12px;color:#506985;margin:10px 0 0 72px;background:#eef4fd;border-radius:7px;padding:7px 9px}.none{padding:30px 12px;text-align:center;color:#687e96;font-size:14px}.muted{color:#61758b}.footnote{color:#6b7d92;font-size:11px;line-height:1.5;margin:17px 2px 8px}.footnote a{color:#205dad}.rtlegend{font-size:12px;color:#60748e;padding:10px 2px}.hidden{display:none!important}@media(max-width:690px){.wrap{padding:12px}.brand-icon{font-size:27px}.brand h1{font-size:20px}.top{align-items:flex-start}.clock{font-size:12px}.settings{grid-template-columns:1fr;gap:12px}.switch{display:none}.panel{padding:12px}.bar{margin-top:12px}.target-options label{justify-content:center}.quickcard{padding:11px 10px}.quickcard strong{font-size:12px}.quickcard small{font-size:10px}.board{padding:10px}.board-head{display:block}.status{margin-top:7px}.trip-main{padding:12px}.big-time{font-size:22px}.segment button{font-size:13px;padding:10px 8px}.dir{width:100%}.dir button{flex:1}.bar-right{width:100%;justify-content:space-between}}@media(max-width:380px){.quickcard small{display:none}.target-options{flex-direction:column}.clock{display:none}}
 
@@ -9,19 +9,55 @@
 .qchip>span:first-child{font-size:21px}.qchip>span:nth-child(2){flex:1;font-weight:750;font-size:14px;min-width:0}
 .qchip small{display:block;color:#6e829e;font-size:11px;font-weight:450;margin-top:1px}.qchip>span:last-child{color:#1761b8;font-size:18px}
 .settings .segment{flex-wrap:wrap}.settings .segment button{min-width:110px}
-.trip.past{opacity:.64;background:#f0f2f6}.trip.past .big-time{color:#75859a}
-.past-heading{display:flex;align-items:center;gap:12px;color:#64768f;font-size:12px;font-weight:750;margin:8px 0 1px}
-.past-heading:before,.past-heading:after{content:'';height:1px;background:#d7e2f0;flex:1}
-.quality.pastflag{background:#e9edf4;color:#596b82}
+
+
+
+
 @media(max-width:690px){.qchip{padding:10px 9px;gap:6px}.qchip>span:nth-child(2){font-size:12px}.qchip small{font-size:10px}.settings .segment button{min-width:0;flex:1 1 100%;text-align:left}.bar-right{flex-wrap:wrap}}
 @media(min-width:480px) and (max-width:690px){.settings .segment button{flex:1 1 30%;text-align:center}}
+
+/* Hilfe: mobilfreundlicher Dialog */
+.help-btn{font-size:14px;white-space:nowrap;padding:0 10px}.help-text{font-weight:700}
+.help-dialog{border:0;padding:0;background:transparent;max-width:min(580px,calc(100% - 24px));width:100%;max-height:min(88dvh,820px);color:#172b48}
+.help-dialog::backdrop{background:rgba(13,32,57,.63)}
+.help-inner{background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 24px 70px #0d234f45;display:flex;flex-direction:column;max-height:min(88dvh,820px)}
+.help-header{padding:17px 19px;border-bottom:1px solid #e2e9f3;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.help-header h2{margin:0;font-size:20px}.help-close{background:#f0f5fc;border:1px solid #d9e6f4;border-radius:10px;width:40px;height:40px;color:#234c7e;font-size:22px}
+.help-body{overflow-y:auto;padding:5px 19px 22px;font-size:14px;line-height:1.55}
+.help-body h3{font-size:15px;margin:19px 0 4px;color:#174d8a}.help-body p{margin:0 0 9px}.help-body a{color:#1460b7}
+.help-tags{display:flex;flex-wrap:wrap;gap:6px;margin:7px 0 10px}.help-tag{font-size:12px;font-weight:700;padding:4px 8px;border-radius:20px;background:#e7f5eb;color:#187341}
+.help-tag.warn{background:#fff2d6;color:#885d09}.help-tag.muted{background:#edf1f6;color:#657589}.help-tag.bad{background:#ffe6e9;color:#ac333a}
+@media(max-width:420px){.help-text{display:none}.help-btn{font-size:20px;padding:0;min-width:36px;min-height:42px}.top{gap:5px}.tools{gap:5px}.iconbtn{min-width:36px}.help-inner{max-height:92dvh}.help-dialog{max-height:92dvh}}
 </style></head><body><main class="wrap">
-<header class="top"><div class="brand"><div class="brand-icon" aria-hidden="true">🚆</div><div><h1>myDash 3.3.1 · Pendelmonitor</h1><div class="sub">Heidelberg ↔ Frankfurt · Verbindungen</div></div></div><div class="tools"><span id="clock" class="clock"></span><button id="refresh" class="iconbtn" aria-label="Aktualisieren" title="Aktualisieren">↻</button><button id="fullscreen" class="iconbtn" aria-label="Vollbild" title="Vollbild">⛶</button></div></header>
+<header class="top"><div class="brand"><div class="brand-icon" aria-hidden="true">🚆</div><div><h1>myDash 3.3.3 · Pendelmonitor</h1><div class="sub">Heidelberg ↔ Frankfurt · Verbindungen</div></div></div><div class="tools"><span id="clock" class="clock"></span><button id="helpOpen" class="iconbtn help-btn" type="button" aria-label="Hilfe und Informationen" title="Hilfe und Informationen">? <span class="help-text">Hilfe</span></button><button id="refresh" class="iconbtn" aria-label="Aktualisieren" title="Aktualisieren">↻</button><button id="fullscreen" class="iconbtn" aria-label="Vollbild" title="Vollbild">⛶</button></div></header>
 <nav class="quicklinks" aria-label="Schnellzugriffe auf Abfahrtstafeln"><a class="qchip" target="_blank" rel="noopener noreferrer" href="https://www.efa-bw.de/rtMonitor/XSLT_DM_REQUEST?locationServerActive=1&amp;stateless=1&amp;sRaLP=1&amp;itdLPxx_generalInfo=false&amp;mode=direct&amp;itdLPxx_branding=mobidatabw&amp;itdLPxx_banner=mobidatabw.png&amp;itdLPxx_useRealtime=true&amp;type_dm=any&amp;itdLPxx_stopname=false&amp;name_dm=de%3A08221%3A1267"><span aria-hidden="true">🚊</span><span>Freiburger Str.<small>Abfahrtstafel</small></span><span aria-hidden="true">↗</span></a><a class="qchip" target="_blank" rel="noopener noreferrer" href="https://www.efa-bw.de/rtMonitor/XSLT_DM_REQUEST?locationServerActive=1&amp;stateless=1&amp;sRaLP=1&amp;itdLPxx_generalInfo=false&amp;mode=direct&amp;itdLPxx_branding=mobidatabw&amp;itdLPxx_banner=mobidatabw.png&amp;itdLPxx_useRealtime=true&amp;type_dm=any&amp;itdLPxx_stopname=false&amp;name_dm=de%3A08221%3A1160"><span aria-hidden="true">🚆</span><span>Heidelberg Hbf<small>Abfahrtstafel</small></span><span aria-hidden="true">↗</span></a></nav>
-<section class="panel" aria-label="Reiseeinstellungen"><div class="settings"><div><div id="originLabel" class="field-title">START</div><div class="segment"><button id="freiburg" type="button">🚊 Freiburger Straße</button><button id="markt" type="button">🚊 Rohrbach Markt</button><button id="heidelberg" type="button">🚆 Heidelberg Hbf</button></div></div><button class="switch" id="swap" title="Fahrtrichtung wechseln" aria-label="Fahrtrichtung wechseln">⇄</button><div><div id="frankfurtLabel" class="field-title">ZIEL FRANKFURT</div><div class="target-options"><label><input id="hbf" type="checkbox" checked> Frankfurt Hbf</label><label><input id="sued" type="checkbox" checked> Frankfurt Süd</label></div></div></div><div class="bar"><div class="dir"><button id="forward" type="button">→ Hinfahrt</button><button id="backward" type="button">← Rückreise</button></div><div class="bar-right"><label for="period" class="muted" style="font-size:12px">Zeitraum</label><select id="period"><option value="2">Nächste 2 h</option><option value="4">Nächste 4 h</option><option value="6">Nächste 6 h</option><option value="past4" selected>−1 h / +4 h</option></select><label for="frequency" class="muted" style="font-size:12px">Auto</label><select id="frequency"><option value="300" selected>5 min</option><option value="600">10 min</option><option value="900">15 min</option></select></div></div></section>
+<section class="panel" aria-label="Reiseeinstellungen"><div class="settings"><div><div id="originLabel" class="field-title">START</div><div class="segment"><button id="freiburg" type="button">🚊 Freiburger Straße</button><button id="markt" type="button">🚊 Rohrbach Markt</button><button id="heidelberg" type="button">🚆 Heidelberg Hbf</button></div></div><button class="switch" id="swap" title="Fahrtrichtung wechseln" aria-label="Fahrtrichtung wechseln">⇄</button><div><div id="frankfurtLabel" class="field-title">ZIEL FRANKFURT</div><div class="target-options"><label><input id="hbf" type="checkbox" checked> Frankfurt Hbf</label><label><input id="sued" type="checkbox" checked> Frankfurt Süd</label></div></div></div><div class="bar"><div class="dir"><button id="forward" type="button">→ Hinfahrt</button><button id="backward" type="button">← Rückreise</button></div><div class="bar-right"><label for="period" class="muted" style="font-size:12px">Zeitraum</label><select id="period"><option value="2">Nächste 2 h</option><option value="4" selected>Nächste 4 h</option><option value="6">Nächste 6 h</option></select><label for="frequency" class="muted" style="font-size:12px">Auto</label><select id="frequency"><option value="300" selected>5 min</option><option value="600">10 min</option><option value="900">15 min</option></select></div></div></section>
 <section class="board"><div class="board-head"><h2 id="heading">Nächste Verbindungen</h2><div class="status" role="status"><span id="dot" class="dot"></span><span id="status">Verbindungen laden …</span></div></div><div id="error" class="errors hidden" role="alert"></div><div id="cards" class="cards"><div class="none">Verbindungen werden gesucht …</div></div><div class="rtlegend">🟢 Prognose/Ist = Echtzeit verfügbar &nbsp; · &nbsp; ⚪ Nur Fahrplan = keine Live-Meldung &nbsp; · &nbsp; 🔴 +Min. = Verspätung</div></section>
-<footer class="footnote">Routen &amp; Echtzeit soweit verfügbar: <a href="https://transitous.org/sources/" target="_blank" rel="noopener noreferrer">Transitous-Datenquellen</a> · <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">© OpenStreetMap</a> · <a href="https://github.com/palatia/myDash" target="_blank" rel="noopener noreferrer">Projektkontakt</a>. Es erscheinen nur vom Routing gefundene Verbindungen, keine garantierte vollständige Abfahrtstafel. Anschlussbewertungen sind unverbindliche Schätzungen. Haltestellen werden näherungsweise per Koordinate gesucht. Rückblickende Fahrten werden bei −1 h / +4 h gesondert abgefragt und nur angezeigt, soweit Transitous sie liefert. <a id="apiDebug" target="_blank" rel="noopener noreferrer" href="https://api.transitous.org/api/v6/plan">API-Test</a>.</footer>
-</main><script>
+<footer class="footnote">Routen &amp; Echtzeit soweit verfügbar: <a href="https://transitous.org/sources/" target="_blank" rel="noopener noreferrer">Transitous-Datenquellen</a> · <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">© OpenStreetMap</a> · <a href="https://github.com/palatia/myDash" target="_blank" rel="noopener noreferrer">Projektkontakt</a>. Es erscheinen nur vom Routing gefundene Verbindungen, keine garantierte vollständige Abfahrtstafel. Anschlussbewertungen sind unverbindliche Schätzungen. Haltestellen werden näherungsweise per Koordinate gesucht. <a id="apiDebug" target="_blank" rel="noopener noreferrer" href="https://api.transitous.org/api/v6/plan">API-Test</a>.</footer>
+</main>
+<dialog id="helpDialog" class="help-dialog" aria-labelledby="helpTitle">
+  <div class="help-inner">
+    <div class="help-header"><h2 id="helpTitle">🚆 myDash – Hilfe &amp; Info</h2><button id="helpClose" type="button" class="help-close" aria-label="Hilfe schließen">×</button></div>
+    <div class="help-body">
+      <h3>1. Verbindungen suchen</h3>
+      <p>Wähle in Heidelberg <strong>Freiburger Straße</strong> (Standard), <strong>Rohrbach Markt</strong> oder <strong>Heidelberg Hbf</strong>. Als Frankfurter Bahnhof kannst du <strong>Hbf</strong>, <strong>Süd</strong> oder beide auswählen. Mit <strong>Hinfahrt / Rückreise</strong> änderst du die Richtung.</p>
+      <p>Oben führen zwei Schnellzugriffe zu den EFA-BW-Abfahrtstafeln der Freiburger Straße und des Heidelberger Hauptbahnhofs.</p>
+      <h3>2. Abfahrtszeiten &amp; Echtzeit</h3>
+      <div class="help-tags"><span class="help-tag">Prognose / Ist</span><span class="help-tag warn">+8 min</span><span class="help-tag muted">Nur Fahrplan</span></div>
+      <p><strong>Plan</strong> ist die reguläre Fahrplanzeit. <strong>Prognose</strong> zeigt die gemeldete erwartete Zeit, wenn Daten vorhanden sind. <strong>+X min</strong> bedeutet Verspätung. <strong>Nur Fahrplan</strong> heißt: Für diese Teilstrecke ist keine bestätigte Echtzeitinformation verfügbar – sie muss also nicht pünktlich sein.</p>
+      <h3>3. Umstiege &amp; Anschlüsse</h3>
+      <div class="help-tags"><span class="help-tag">Sicher</span><span class="help-tag warn">Knapp</span><span class="help-tag bad">Gefährdet</span></div>
+      <p>Es werden höchstens <strong>drei Umstiege</strong> berücksichtigt; Verbindungen mit FlixTrain werden ausgeblendet. Die Anschlussbewertung schätzt die verfügbare Umsteigezeit und berücksichtigt gemeldete Verspätungen, soweit vorhanden. Sie ist keine Garantie.</p>
+      <p>Auf der Hinfahrt endet die Anzeige am zuerst erreichten Frankfurter Bahnhof, soweit dieser als Ende einer Teilstrecke erkennbar ist. Eine unnötige Weiterfahrt zwischen Frankfurt Hbf und Süd entfällt dann.</p>
+      <h3>4. Zeitraum &amp; Aktualisierung</h3>
+      <p>Du kannst die <strong>nächsten 2, 4 oder 6 Stunden</strong> anzeigen lassen (Standard: 4 Stunden). myDash aktualisiert die Ergebnisse automatisch im eingestellten Intervall, solange der Tab aktiv ist; mit <strong>↻</strong> startest du eine sofortige Abfrage. Bereits abgefahrene Verbindungen werden nicht rückwirkend gesucht.</p>
+      <h3>5. Datenquelle &amp; Einschränkungen</h3>
+      <p>Die Verbindungssuche nutzt <a href="https://transitous.org/" target="_blank" rel="noopener noreferrer">Transitous / MOTIS</a>. Fahrpläne, Echtzeitmeldungen, Gleise und Verbindungen können fehlen oder unvollständig sein. Die Haltestellensuche basiert auf näherungsweisen Koordinaten. Das Dashboard ist <strong>keine offizielle DB-Auskunft</strong>. Prüfe wichtige Fahrten bei Bedarf im DB Navigator.</p>
+      <p><small>myDash 3.3.3 · Privater Pendelmonitor · <a href="https://github.com/palatia/myDash" target="_blank" rel="noopener noreferrer">GitHub-Projekt</a></small></p>
+    </div>
+  </div>
+</dialog>
+<script>
 (()=>{'use strict';
 const API='https://api.transitous.org/api/v6/plan';
 const STOPS={freiburg:{name:'Freiburger Straße',coord:'49.37383,8.68533'},markt:{name:'Rohrbach Markt',coord:'49.38032,8.68754'},heidelberg:{name:'Heidelberg Hbf',coord:'49.4037,8.6757'},hbf:{name:'Frankfurt (Main) Hbf',coord:'50.1071,8.6638'},sued:{name:'Frankfurt (Main) Süd',coord:'50.09936,8.6863'}};
@@ -39,7 +75,6 @@ const kind=l=>/TRAM|LIGHT_RAIL/i.test(l.mode)?'tram':/SUBURBAN|METRO/i.test(l.mo
 const hasRealtime=(l,side)=>{const r=side==='dep'?l.from?.departureTimestampReason:l.to?.arrivalTimestampReason;return r? !['NO_RT_DATA','INCONSISTENT_RT','SCHEDULE','SCHEDULED'].includes(r):false;};
 const cancelled=l=>l.cancelled||l.from?.cancelled||l.to?.cancelled;
 let origin='freiburg',direction='forward',targets=['hbf','sued'],results=[],lastLoaded=null,controller=null,timer=null,req=0;
-let historyCache={key:'',at:0,items:[]}; // Rückblick separat abrufen, max. alle 30 Minuten
 const openItems=new Set();
 function status(text,cls){E('status').textContent=text;E('dot').className='dot '+(cls||'');}
 function error(text){E('error').textContent=text;E('error').classList.toggle('hidden',!text);}
@@ -66,77 +101,65 @@ function stopAtFirstFrankfurtStation(j){
   return {...j,legs:kept,endTime:end,scheduledEndTime:kept.at(-1).scheduledEndTime||end,
     _destination:'hbf',_shortenedAtHbf:true};
 }
-function card(j){const ll=legs(j);const f=ll[0],z=ll.at(-1);const key=j._key;const quality=connectionQuality(j),n=Math.max(0,ll.length-1);const dep=f.startTime||j.startTime,arr=z.endTime||j.endTime,travel=diff(arr,dep);const expanded=openItems.has(key);const dest=j._destination==='sued'?'Frankfurt Süd':'Frankfurt Hbf';const route=ll.map(vehicle).join('<span style="color:#8199b6"> → </span>');const past=ms(dep)<Date.now()-90000;return `<article class="trip ${past?'past':''}"><button type="button" class="trip-main" data-key="${esc(key)}" aria-expanded="${expanded}"><div class="trip-top"><div><div class="big-time">${esc(t(dep))} → ${esc(t(arr))}</div><div class="travel-meta">${travel===null?'—':travel+' min'} · ${n}× Umstieg</div></div><span class="quality ${past?'pastflag':quality[0]}">${esc(past?'Bereits abgefahren':quality[1])}</span></div><div class="route-badges">${route}</div><div class="arrive">${esc(direction==='forward'?'Ankunft: '+dest:'Abfahrt: '+dest)} · Details ${expanded?'▲':'▼'}</div></button><div class="trip-detail ${expanded?'':'hidden'}">${ll.map((l,i)=>legMarkup(l,i,ll)).join('')}</div></article>`;}
-function render(){const now=Date.now(),isPast=E('period').value==='past4',hours=isPast?4:Number(E('period').value),end=now+hours*3600000,start=isPast?now-3600000:now-90000;
-let shown=results.filter(j=>{const ll=legs(j);if(!ll.length||ll.length>4||flix(j))return false;const d=ms(ll[0].startTime);return Number.isFinite(d)&&d>=start&&d<=end;});
-shown.sort((a,b)=>ms(legs(a)[0].startTime)-ms(legs(b)[0].startTime));const keys=new Set();shown=shown.filter(j=>{const id=legs(j).map(l=>(l.tripId||label(l))+'@'+(l.scheduledStartTime||l.startTime)+'>'+name(l.to)).join('|')+'-'+j._destination;if(keys.has(id))return false;keys.add(id);return true;});
-const upcoming=shown.filter(j=>ms(legs(j)[0].startTime)>=now-90000),past=shown.filter(j=>ms(legs(j)[0].startTime)<now-90000);
-let html=upcoming.slice(0,36).map(card).join('');if(isPast&&past.length)html+='<div class="past-heading">Bereits abgefahren · letzte Stunde</div>'+past.slice(-20).reverse().map(card).join('');
-E('cards').innerHTML=html||'<div class="none">Keine passenden Verbindungen im Zeitraum. Vergangene Fahrten werden nur angezeigt, wenn die API sie noch liefert.</div>';
-E('cards').querySelectorAll('button[data-key]').forEach(btn=>btn.addEventListener('click',()=>{const k=btn.dataset.key;if(openItems.has(k))openItems.delete(k);else openItems.add(k);render();}));}
-async function load(){
-  if(controller)controller.abort();
-  const id=++req,ctrl=new AbortController();controller=ctrl;
-  E('refresh').disabled=true;status('Aktuelle Verbindungen laden …','');error('');
-  const limit=setTimeout(()=>ctrl.abort(),28000);
-  const now=Date.now(),isPast=E('period').value==='past4';
-  const futureHours=isPast?4:Number(E('period').value);
-  const source=STOPS[origin];
-  const key=[origin,direction,...targets].join('|');
-  async function query(dest,kind){
-    const tgt=STOPS[dest],from=direction==='forward'?source:tgt,to=direction==='forward'?tgt:source;
-    // Separate Abfragen verhindern, dass aktuelle Top-Routen die vergangenen verdrängen.
-    // Rückblick endet ein paar Sekunden vor Jetzt; die normale Suche beginnt jetzt.
-    const start=kind==='past'?new Date(now-3600000):new Date(now);
-    const windowSeconds=kind==='past'?3600:futureHours*3600;
-    const params=new URLSearchParams({
-      fromPlace:from.coord,toPlace:to.coord,time:start.toISOString(),arriveBy:'false',
-      realtimeMode:'REALTIME',maxTransfers:'3',timetableView:'true',
-      numItineraries:'50',maxItineraries:'100',searchWindow:String(windowSeconds),
-      detailedLegs:'false',detailedTransfers:'false',language:'de'
-    });
-    const url=API+'?'+params.toString();
-    E('apiDebug').href=url;
-    const r=await fetch(url,{signal:ctrl.signal,cache:'no-store',headers:{Accept:'application/json'}});
-    if(!r.ok)throw new Error('Transitous HTTP '+r.status);
-    const v=await r.json();
-    if(!Array.isArray(v.itineraries))throw new Error('API-Antwort ohne itineraries');
-    return v.itineraries.map((j,i)=>stopAtFirstFrankfurtStation({
-      ...j,_destination:dest,_key:kind+'_'+dest+'_'+i+'_'+(j.startTime||'')
-    }));
-  }
-  try{
-    const fresh=(await Promise.all(targets.map(d=>query(d,'future')))).flat();
-    let older=[],historyWarning='';
-    if(isPast){
-      const reuse=historyCache.key===key&&now-historyCache.at<30*60000;
-      if(reuse)older=historyCache.items;
-      else{
-        try{
-          older=(await Promise.all(targets.map(d=>query(d,'past')))).flat();
-          historyCache={key,at:now,items:older};
-        }catch(e){
-          if(e.name==='AbortError')throw e;
-          historyWarning=' · Rückblick aktuell nicht verfügbar';
-          older=historyCache.key===key?historyCache.items:[];
-        }
-      }
-    }
-    if(id!==req)return;
-    results=fresh.concat(older);lastLoaded=new Date();render();
-    const historical=results.filter(j=>{const ll=legs(j);return ll.length&&ms(ll[0].startTime)<now-90000&&ms(ll[0].startTime)>=now-3600000;}).length;
-    status('Stand '+t(lastLoaded)+' · '+results.length+' Routenvorschläge'+(isPast?' · '+historical+' aus letzter Stunde':'')+historyWarning,'ok');
-  }catch(e){
-    if(id!==req)return;
-    const msg=e.name==='AbortError'?'Zeitüberschreitung der API-Abfrage':e.message;
-    error('Verbindungen konnten nicht geladen werden: '+msg+'. Bitte die API-Abfrage unten testen.');
-    status(lastLoaded?'Letzter erfolgreicher Stand '+t(lastLoaded):'Datenquelle nicht erreichbar','err');
-    if(!lastLoaded)E('cards').innerHTML='<div class="none">Keine Live-Daten verfügbar. Es werden keine Beispieldaten angezeigt.</div>';
-  }finally{
-    clearTimeout(limit);
-    if(id===req){controller=null;E('refresh').disabled=false;}
-  }
-}
+function card(j){const ll=legs(j);const f=ll[0],z=ll.at(-1);const key=j._key;const quality=connectionQuality(j),n=Math.max(0,ll.length-1);const dep=f.startTime||j.startTime,arr=z.endTime||j.endTime,travel=diff(arr,dep);const expanded=openItems.has(key);const dest=j._destination==='sued'?'Frankfurt Süd':'Frankfurt Hbf';const route=ll.map(vehicle).join('<span style="color:#8199b6"> → </span>');return `<article class="trip"><button type="button" class="trip-main" data-key="${esc(key)}" aria-expanded="${expanded}"><div class="trip-top"><div><div class="big-time">${esc(t(dep))} → ${esc(t(arr))}</div><div class="travel-meta">${travel===null?'—':travel+' min'} · ${n}× Umstieg</div></div><span class="quality ${quality[0]}">${esc(quality[1])}</span></div><div class="route-badges">${route}</div><div class="arrive">${esc(direction==='forward'?'Ankunft: '+dest:'Abfahrt: '+dest)} · Details ${expanded?'▲':'▼'}</div></button><div class="trip-detail ${expanded?'':'hidden'}">${ll.map((l,i)=>legMarkup(l,i,ll)).join('')}</div></article>`;}
+ function render(){
+   const now=Date.now(),end=now+Number(E('period').value)*3600000;
+   let shown=results.filter(j=>{
+     const ll=legs(j);
+     if(!ll.length||ll.length>4||flix(j))return false;
+     const d=ms(ll[0].startTime);
+     return Number.isFinite(d)&&d>=now-90000&&d<=end;
+   });
+   shown.sort((a,b)=>ms(legs(a)[0].startTime)-ms(legs(b)[0].startTime));
+   const keys=new Set();
+   shown=shown.filter(j=>{
+     const id=legs(j).map(l=>(l.tripId||label(l))+'@'+(l.scheduledStartTime||l.startTime)+'>'+name(l.to)).join('|')+'-'+j._destination;
+     if(keys.has(id))return false;keys.add(id);return true;
+   });
+   E('cards').innerHTML=shown.slice(0,36).map(card).join('')||'<div class="none">Keine passenden zukünftigen Verbindungen im gewählten Zeitraum.</div>';
+   E('cards').querySelectorAll('button[data-key]').forEach(btn=>btn.addEventListener('click',()=>{
+     const k=btn.dataset.key;if(openItems.has(k))openItems.delete(k);else openItems.add(k);render();
+   }));
+ }
+ async function load(){
+   if(controller)controller.abort();
+   const id=++req,ctrl=new AbortController();controller=ctrl;
+   E('refresh').disabled=true;status('Aktuelle Verbindungen laden …','');error('');
+   const limit=setTimeout(()=>ctrl.abort(),28000);
+   const now=Date.now(),futureHours=Number(E('period').value),source=STOPS[origin];
+   async function query(dest){
+     const tgt=STOPS[dest],from=direction==='forward'?source:tgt,to=direction==='forward'?tgt:source;
+     const params=new URLSearchParams({
+       fromPlace:from.coord,toPlace:to.coord,time:new Date(now).toISOString(),arriveBy:'false',
+       realtimeMode:'REALTIME',maxTransfers:'3',timetableView:'true',
+       numItineraries:'50',maxItineraries:'100',searchWindow:String(futureHours*3600),
+       detailedLegs:'false',detailedTransfers:'false',language:'de'
+     });
+     const url=API+'?'+params.toString();E('apiDebug').href=url;
+     const r=await fetch(url,{signal:ctrl.signal,cache:'no-store',headers:{Accept:'application/json'}});
+     if(!r.ok)throw new Error('Transitous HTTP '+r.status);
+     const v=await r.json();
+     if(!Array.isArray(v.itineraries))throw new Error('API-Antwort ohne itineraries');
+     return v.itineraries.map((j,i)=>stopAtFirstFrankfurtStation({
+       ...j,_destination:dest,_key:dest+'_'+i+'_'+(j.startTime||'')
+     }));
+   }
+   try{
+     const fresh=(await Promise.all(targets.map(query))).flat();
+     if(id!==req)return;
+     results=fresh;lastLoaded=new Date();render();
+     status('Stand '+t(lastLoaded)+' · '+results.length+' Routenvorschläge','ok');
+   }catch(e){
+     if(id!==req)return;
+     const msg=e.name==='AbortError'?'Zeitüberschreitung der API-Abfrage':e.message;
+     error('Verbindungen konnten nicht geladen werden: '+msg+'. Bitte die API-Abfrage unten testen.');
+     status(lastLoaded?'Letzter erfolgreicher Stand '+t(lastLoaded):'Datenquelle nicht erreichbar','err');
+     if(!lastLoaded)E('cards').innerHTML='<div class="none">Keine Live-Daten verfügbar. Es werden keine Beispieldaten angezeigt.</div>';
+   }finally{
+     clearTimeout(limit);
+     if(id===req){controller=null;E('refresh').disabled=false;}
+   }
+ }
 function update(){settings();results=[];openItems.clear();E('cards').innerHTML='<div class="none">Neue Verbindungen werden gesucht …</div>';load();}
 E('freiburg').onclick=()=>{origin='freiburg';update();};E('markt').onclick=()=>{origin='markt';update();};E('heidelberg').onclick=()=>{origin='heidelberg';update();};E('forward').onclick=()=>{direction='forward';update();};E('backward').onclick=()=>{direction='backward';update();};E('swap').onclick=()=>{direction=direction==='forward'?'backward':'forward';update();};['hbf','sued'].forEach(k=>E(k).onchange=()=>{targets=['hbf','sued'].filter(x=>E(x).checked);if(!targets.length){E(k).checked=true;targets=[k];}update();});E('refresh').onclick=load;E('period').onchange=update;E('fullscreen').onclick=()=>document.fullscreenElement?document.exitFullscreen?.():document.documentElement.requestFullscreen?.();
 function startTimer(){clearInterval(timer);timer=setInterval(()=>{if(!document.hidden)load();},Number(E('frequency').value)*1000);}E('frequency').onchange=startTimer;document.addEventListener('visibilitychange',()=>{if(!document.hidden&&(!lastLoaded||Date.now()-lastLoaded.getTime()>Number(E('frequency').value)*1000))load();});setInterval(()=>{E('clock').textContent=cf.format(new Date());if(results.length)render();},30000);E('clock').textContent=cf.format(new Date());
